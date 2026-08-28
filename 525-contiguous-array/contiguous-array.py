@@ -15,7 +15,7 @@ class Solution(object):
 
             if diff==0:
                 res=max(res,i+1)
-                continue
+                # continue
             
             if diff in f:
                 length=i-f[diff]
